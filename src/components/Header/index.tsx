@@ -10,7 +10,7 @@ function Header() {
   const pathname = usePathname(); // Get the current pathname
 
   return (
-    <div className="flex justify-between items-center h-[80px] sm:px-28 px-5">
+    <div className="flex justify-between items-center h-[80px] sm:px-28 px-5 z-[100]">
       <Link href={"/"} className="text-[30px] font-extrabold">
         GamPla<span className="text-[#DC7000]">y</span>
       </Link>

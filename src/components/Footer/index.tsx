@@ -2,7 +2,6 @@
 import { navLinksItem, socialLinks } from "@/constant";
 import { INavLinksItem, IsocialLinks } from "@/types";
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import React from "react";
 
